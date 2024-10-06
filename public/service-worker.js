@@ -8,7 +8,7 @@ const cacheNameByUrl = url => {
         const id = url.pathname.split('/').pop();
 
         cacheName = `recipe-${id}-cache`;
-    } else if (pathname.startsWith('/recipes?')) {
+    } else if (pathname.startsWith('/recipes')) {
         cacheName = RECIPIES_CACHE;
     }
     return cacheName;
