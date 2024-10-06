@@ -1,0 +1,12 @@
+.details-fields {
+    padding: 20px;
+}
+
+.details-label {
+    color: gray;
+    font-weight: bold;
+}
+
+.details-value {
+    color: black;
+}

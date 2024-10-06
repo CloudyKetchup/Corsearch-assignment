@@ -1,0 +1,29 @@
+.main-container {
+    display: grid;
+    grid-template-columns: 250px 2px auto;
+    grid-gap: 10px;
+}
+
+.divider {
+    margin: auto;
+    height: 200px;
+    width: 2px;
+    background-color: grey;
+    opacity: 0.4;
+}
+
+.dropdown-container {
+    display: flex;
+}
+
+.dropdown-container > div {
+    margin: auto;
+}
+
+.recipe-details-container {
+    display: flex;
+}
+
+.recipe-details-container > div {
+    margin: auto;
+}
