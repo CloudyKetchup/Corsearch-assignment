@@ -1,6 +1,6 @@
 # React, Services Workers and API Caching
 
-This project showcases a application implementing service workers for caching api requests
+This project showcases an application implementing service workers for caching api requests
 
 ### How to run
 
